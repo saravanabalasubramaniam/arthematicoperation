@@ -1,28 +1,47 @@
 import java.io.*;
+
 import java.util.*;
-class Arthematic
+
+class Arthemati
+
 {
+
  public static void main(String args[])
+
  {
+
 	Scanner input=new Scanner(System.in);
-	String c=input.nextLine();
+
+	Scanner inpu=new Scanner(System.in);
 	int a=input.nextInt();
+
+	String c=inpu.nextLine();
 	int b=input.nextInt();
 	
-	
-	int d;
+
+
 	if(c.equals("/"))
+
 	{
-		d=a/b;
-		System.out.println(d);
-	}
-	else if(c.equals("%"))
-	{
-		d=a%b;
-		System.out.println(d);
-	}
-	else{
+
+		System.out.println(a/b);
+
 	}
 	
+	else if(c.equals("%"))
+	
+	{
+				
+		System.out.println(a%b);
+	
+	}
+	
+	else
+	{
+
+	}
+	
+
   }
+
 }
